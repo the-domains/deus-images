@@ -1,16 +1,3 @@
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    permalink:
-      path: '/:title/'
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
-typography_spectrum: 0.3897659
 color:
   saturation: 0.9597207
   brandStrength: 1
@@ -22,5 +9,18 @@ color:
     - '#043145'
     - '#42677A'
   lightness: 0.7416756
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
 layout_spectrum: 0.7352309
+typography_spectrum: 0.3897659
 name: Deus Images
